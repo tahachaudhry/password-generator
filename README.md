@@ -2,7 +2,7 @@
 
 ## LINKS
 [Webpage](https://tahachaudhry.github.io/password-generator/) </br>
-[Github](https://github.com/tahachaudhry/password-generator) 
+[Github](https://github.com/tahachaudhry/password-generator) </br>
 
 ## User Story
 AS AN employee with access to sensitive data</br>
