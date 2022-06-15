@@ -29,13 +29,13 @@ function generatePassword() {
     var passSpec = confirm("Does your password require speical characters?");
     for (i=0; i < passLength; i++){
       if(newPass.length < passLength){
-        if (passUpperCase){
+        if (passUpperCase){ 
           newPass += upperCase[Math.floor(Math.random() * upperCase.length)];
-        } if (passLowerCase){
-          newPass += lowerCase[Math.floor(Math.floor() * upperCase.length)];
-        } if (passNum) {
+        } if (passLowerCase){ 
+          newPass += lowerCase[Math.floor(Math.random() * lowerCase.length)];
+        } if (passNum) { 
           newPass += numChars[Math.floor(Math.random() * numChars.length)];
-        } if (passSpec){
+        } if (passSpec){ 
           newPass += specChars[Math.floor(Math.random() * specChars.length)];
         }
       } else {
