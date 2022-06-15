@@ -15,24 +15,24 @@ function writePassword() {
 
 function generatePassword() {
   var numChars ="0123456789";
-  var upperCases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var lowerCases = upperCases.toLowerCase();
-  var specChars = "!@#$%^&*()_=+";
+  var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var lowerCase = upperCase.toLowerCase();
+  var specChars = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   var newPass = "";
 
   var passLength = Number(prompt("Please type your password of character length (8-128 characters)."));
 
   if (passLength >= 8 && passLength <=128){
     var passUpperCase = confirm("Does your password require uppercase characters?");
-    var passLowerCase = confirm("Does your password require lowercase characters");
+    var passLowerCase = confirm("Does your password require lowercase characters?");
     var passNum = confirm("Does your password require numbers?");
     var passSpec = confirm("Does your password require speical characters?");
     for (i=0; i < passLength; i++){
       if(newPass.length < passLength){
         if (passUpperCase){
-          newPass += upperCases[Math.floor(Math.random() * upperCases.length)];
+          newPass += upperCase[Math.floor(Math.random() * upperCase.length)];
         } if (passLowerCase){
-          newPass += lowerCases[Math.floor(Math.floor() * upperCases.length)];
+          newPass += lowerCase[Math.floor(Math.floor() * upperCase.length)];
         } if (passNum) {
           newPass += numChars[Math.floor(Math.random() * numChars.length)];
         } if (passSpec){
