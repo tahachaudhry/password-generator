@@ -1,5 +1,9 @@
 # Password Generator Starter Code
 
+## LINKS
+[Webpage](https://tahachaudhry.github.io/password-generator/) 
+[Github](https://github.com/tahachaudhry/password-generator) 
+
 ## User Story
 AS AN employee with access to sensitive data</br>
 I WANT to randomly generate a password that meets certain criteria</br>
@@ -22,6 +26,6 @@ THEN a password is generated that matches the selected criteria</br>
 WHEN the password is generated</br>
 THEN the password is either displayed in an alert or written to the page</br>
 
-## Screenshot
+## Webpage Screenshot
 ![Web Page Screenshot](./Develop/Images/Webpage_Screenshot.png)
 
